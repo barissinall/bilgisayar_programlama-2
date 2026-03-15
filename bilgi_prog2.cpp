@@ -1,13 +1,11 @@
 #include <iostream>
-#include <cmath> // pow() ve sqrt() fonksiyonlarý için
+#include <cmath> // pow() ve sqrt() fonksiyonlarÄ± iÃ§in
 
 using namespace std;
 
 int main() {
     double x1, y1, x2, y2;
     double fark_x, fark_y, toplam, mesafe;
-
-    // 1. Algoritma Adýmý: Birinci noktanýn koordinatlarýný kullanýcýdan al
     cout << "Birinci noktanin x koordinatini girin (x1): ";
     cin >> x1;
     cout << "Birinci noktanin y koordinatini girin (y1): ";
